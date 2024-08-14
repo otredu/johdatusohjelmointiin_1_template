@@ -18,10 +18,14 @@ describe('sayHello', () => {
 
 /* 2 */
 describe('squareOf', () => {
-    test('squareOf: toimii oikein: 2 => 4', () => {
+    test('squareOf: laskee neliön oikein', () => {
         expect(squareOf(2)).toBe(4);
         expect(squareOf(-2)).toBe(4);
         expect(squareOf(5)).toBe(25);
+    });
+    test('squareOf: check input', () => {
+        expect(squareOf("höpö")).toBe("check input")
+        expect(squareOf()).toBe("check input")
     });
 })     
 
@@ -58,7 +62,7 @@ describe('findLarger', () => {
 
 /* 5 */
 describe('areaOfTriangle', () => {
-    test('areaOfTriangle: palauttaa pinta-alan oikein', () => {
+    test('areaOfTriangle: laskee pinta-alan oikein', () => {
         expect(areaOfTriangle(2, 4)).toBe(4)
         expect(areaOfTriangle(1, 45)).toBe(22.5)
         expect(areaOfTriangle(10.1, 3.5)).toBe(18.4)
@@ -71,12 +75,11 @@ describe('areaOfTriangle', () => {
         expect(areaOfTriangle(3)).toBe("check input")
         expect(areaOfTriangle()).toBe("check input")
     });
-
 })
 
 /* 6 */
 describe('division', () => {
-    test('division: toimii ok, normaalisyöte', () => {
+    test('division: jakolasku suoritetaan oikein', () => {
         expect(division(6, 2)).toBe(3)
         expect(division(10, 5)).toBe(2)
         expect(division(-2, 2)).toBe(-1)
