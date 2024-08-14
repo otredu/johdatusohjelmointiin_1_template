@@ -2,13 +2,12 @@
 
 Tehtävä 1: Merkkijonojen yhdistäminen
 
-Alla on funktio sayHello, joka saa parametrina merkkijonon (name). Muokkaa koodia niin, että se palauttaa tervehdystekstin “Hei, <nimi>, mitä kuuluu?”. 
+Alla on funktio sayHello, joka saa parametrina merkkijonon (name). Muokkaa koodia niin, 
+että se palauttaa tervehdystekstin “Hei, <nimi>, mitä kuuluu?”. 
 Kutsu funktiota kaksi kertaa kahdella eri nimellä ja tulosta funktion palauttamat merkkijonot konsolille.
 
-Aja koodi:
+Aja koodi terminaalissa:
 node tehtava_1.js
-
-Aja testit:
 
 */
 
