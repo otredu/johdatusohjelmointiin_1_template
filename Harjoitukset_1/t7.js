@@ -1,36 +1,31 @@
 /* 
 
-Tehtävä 7. Taksimatka
+Tehtävä 7. Valuuttamuunnin
 
-Tee funktio, jonka avulla voit laskea taksimatkan suuruuden euroissa, kun tiedetään matkustajien määrä 
-ja kuljetut kilometrit. Tarkista myös funktion saamat arvot, että ne ovat järkeviä ja jos ne eivät ole 
-palauta “check input.
+Tee funktio, joka saa parametrina sen paljonko asiakkaalla on rahaa (euros) ja mihin valuuttaan (currency) 
+ne halutaan muuttaa. Ennen muunnosta vähennetään palvelumaksu 2.5€. Ilmoita tulos muodossa:
+    __€ vastaa ¥__
 
-Taksimatkan hinta lasketaan seuraavasti:
+Valuuttakurssit (1€ vastaa):
+    YEN     ¥145 
+    GBP     £0.78 
+    USD     $1.01 
 
-Henkilöitä	€/km
------------------
-    1-2	    1,6
-    3-4	    1,9
-    5-6	    2,0
-    yli 6	2,2
------------------
-Aloitusmaksu on 5,40€
-
-Testaa funktiota vähintään kolmella eri arvolla.
+Kutsu funktiota useilla eri arvoilla ja tulosta tiedot konsolille. Pyöristä tulokset kahden 
+desimaalin tarkkuuteen.
 
 Aja koodi terminaalissa:
 node tehtava_7.js
 
 */
 
-function taxiFare(/*lisää itse parametrit tähän*/){
+function convertCurrency(euros, currency){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(taxiFare());
+console.log(convertCurrency());
 
 
 // Älä koske tähän:
-module.exports = taxiFare;
+module.exports = convertCurrency;

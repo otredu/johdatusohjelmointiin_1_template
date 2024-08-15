@@ -4,9 +4,10 @@ const ageCategory = require('../Harjoitukset_1/t3');
 const findLarger = require('../Harjoitukset_1/t4');
 const areaOfTriangle = require('../Harjoitukset_1/t5');
 const division = require('../Harjoitukset_1/t6');
-const taxiFare = require('../Harjoitukset_1/t7');
-const colorRobot = require('../Harjoitukset_1/t8');
-const finalPrice = require('../Harjoitukset_1/t9');
+const convertCurrency = require('../Harjoitukset_1/t7');
+const taxiFare = require('../Harjoitukset_1/t8');
+const colorRobot = require('../Harjoitukset_1/t9');
+const finalPrice = require('../Harjoitukset_1/t10');
 
 /* 1 */
 describe('sayHello', () => {
@@ -99,6 +100,21 @@ describe('division', () => {
 })
 
 /* 7 */
+describe('convertCurrency', () => {
+    test('convertCurrency: valuuttamuunnos suoritetaan oikein', () => {
+        expect(convertCurrency(10, "YEN")).toBe("¥1087.5")
+        expect(convertCurrency(10, "USD")).toBe("$5.85")
+        expect(convertCurrency(10, "GBP")).toBe("£7.58")
+    });
+
+    test('convertCurrency: check input', () => {
+        expect(convertCurrency()).toBe("check input")
+        expect(convertCurrency(3)).toBe("check input")
+        expect(convertCurrency("kissa")).toBe("check input")
+    });
+})
+
+/* 8 */
 describe('taxiFare', () => {
     test('taxiFare: laskee hinnan oikein', () => {
         expect(taxiFare(2, 4)).toBe(11.8)
@@ -114,7 +130,7 @@ describe('taxiFare', () => {
     });
 })
 
-/* 8 */
+/* 9 */
 describe('colorRobot', () => {
     test('colorRobot: tulkitsee värit oikein', () => {
         expect(colorRobot(344)).toBe("violetti")
@@ -133,7 +149,7 @@ describe('colorRobot', () => {
     });
  })
 
-/* 9 */
+/* 10 */
 describe('finalPrice', () => {
     test('finalPrice: laskee hinnan oikein', () => {
         expect(finalPrice(50, 24)).toBe(62);
