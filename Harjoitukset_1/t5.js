@@ -11,7 +11,7 @@ Vihje 2: pyöristäminen yhden desimaalin tarkkuuteen: kerro pyöristettävä lu
 pyöristä saatu luku kokonaisluvuksi (Math.round), jaa pyöristetty luku kymmenellä
 
 Aja koodi terminaalissa:
-node tehtava_5.js
+node t5.js
 
 */
 

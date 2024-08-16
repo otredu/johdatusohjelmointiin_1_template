@@ -1,29 +1,31 @@
 /* 
 
-Tehtävä 1: Tilikauden tulos
+Tehtävä 1: Matemaattiset operaatiot
 
-Tee funktio, joka saa kaksi lukua parametrina tuotto (income) ja kulut (expences) ja laskee 
-tilikauden tuloksen ja ilmoittaa, onko se voittoa vai tappiota. Tulos lasketaan kaavalla tuotto – kulut. 
-jos vastaus on negatiivinen, tilikausi on tappiollinen, muuten se on voitollinen. Testaa ohjelmaa eri 
-arvoilla ja tulosta vastaus konsolille muodossa:
+Tee funktio, joka saa parametrina kaksi lukua (a ja b) ja laskee niiden summan, erotuksen, tulon, 
+osamäärän ja jakojäännöksen. Funktio tulostaa saadut tulokset seuraavassa muodossa:
 
-    Tulot: ___€ 
-    Menot: ___€
-    Tilikauden tulos: ___€ tappiota
+    Luvut: ___ ja ____
+    Summa: ____
+    Erotus: ____
+    Tulo: ____
+    Osamäärä: ____
+    Jakojäännös: ____
 
-Aja koodi terminaalissa usealla lukuparilla.
+Kutsu funktiota vähintään kolmella eri lukuparilla.
 
-node tehtava_1.js
+Aja koodi terminaalissa:
+node t1.js
 
 */
 
-function revenue(income, expences){
+function mathOperations(a, b){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(revenue());
+console.log(mathOperations());
 
 
 // Älä koske tähän:
-module.exports = revenue;
+module.exports = mathOperations;

@@ -6,7 +6,7 @@ Tee funktio, joka saa parametrina yhden luvun ja korottaa sen potenssiin 2 (= ne
 Kutsu funktiota kahdella eri arvolla ja tulosta funktion palauttamat arvot konsolille. 
 
 Aja koodi terminaalissa:
-node tehtava_2.js
+node t_2.js
 
 */
 

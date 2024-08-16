@@ -27,7 +27,7 @@ Lopullinen hinta lasketaan: hinta x alennuksen prosenttikerroin x alv:in prosent
 kahden desimaalin tarkkuuteen.
 
 Aja koodi terminaalissa:
-node tehtava_10.js
+node t10.js
 
 */
 

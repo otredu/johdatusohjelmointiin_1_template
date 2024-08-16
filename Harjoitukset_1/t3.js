@@ -7,7 +7,7 @@ muussa tapauksessa palautetaan "minor (alaikäinen). Kutsu funktiota kolmella er
 palauttamat arvot konsolille. Jos parametri on viallinen, palauta "check input".
 
 Aja koodi terminaalissa:
-node tehtava_3.js
+node t3.js
 
 */
 
