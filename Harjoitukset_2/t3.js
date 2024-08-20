@@ -1,25 +1,31 @@
 /* 
 
-Tehtävä 3: Tuumat senteiksi
+Tehtävä 3: Matemaattiset operaatiot
 
-Tee funktion, joka muuntaa annetut tuumat senttimetreiksi ja ilmoittaa vastauksen muodossa:
-   
-    ___ tuumaa on ___ senttimetriä 
+Tee funktio, joka saa parametrina kaksi lukua (a ja b) ja laskee niiden summan, erotuksen, tulon, 
+osamäärän ja jakojäännöksen. Funktio tulostaa saadut tulokset seuraavassa muodossa:
 
-Testaa funktiota usealla lukuparilla.
+    Luvut: ___ ja ____
+    Summa: ____
+    Erotus: ____
+    Tulo: ____
+    Osamäärä: ____
+    Jakojäännös: ____
+
+Kutsu funktiota vähintään kolmella eri lukuparilla.
 
 Aja koodi terminaalissa:
 node t3.js
 
 */
 
-function inchToCm(inch){
+function mathOperations(a, b){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(inchToCm());
+console.log(mathOperations());
 
 
 // Älä koske tähän:
-module.exports = inchToCm;
+module.exports = mathOperations;

@@ -9,8 +9,8 @@ Funktio palauttaa annetun laskutoimituksen sekä sen vastauksen muodossa:
     3 + 4 = 7
     -3 * 20 = -60
 
-Tee ehtorakenne käyttäen switch – case rakennetta. Testaa funktiota usealla lukuparilla sekä 
-laskutoimituksella.
+Tee ehtorakenne käyttäen switch – case rakennetta ja pyöristä vastaus kahden desimaalin tarkkuuteen. 
+Testaa funktiota usealla lukuparilla sekä laskutoimituksella. 
 
 Aja koodi terminaalissa:
 node t5.js

@@ -1,31 +1,27 @@
 /* 
 
-Tehtävä 1: Matemaattiset operaatiot
+Tehtävä 1: Tuumat senteiksi
 
-Tee funktio, joka saa parametrina kaksi lukua (a ja b) ja laskee niiden summan, erotuksen, tulon, 
-osamäärän ja jakojäännöksen. Funktio tulostaa saadut tulokset seuraavassa muodossa:
+Tee funktion, joka muuntaa annetut tuumat senttimetreiksi ja ilmoittaa vastauksen muodossa:
+   
+    ___ tuumaa on ___ senttimetriä 
 
-    Luvut: ___ ja ____
-    Summa: ____
-    Erotus: ____
-    Tulo: ____
-    Osamäärä: ____
-    Jakojäännös: ____
+Testaa funktiota usealla lukuparilla.
 
-Kutsu funktiota vähintään kolmella eri lukuparilla.
+Vinkki: 1 tuuma = 2.54 cm
 
 Aja koodi terminaalissa:
 node t1.js
 
 */
 
-function mathOperations(a, b){
+function inchToCm(inch){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(mathOperations());
+console.log(inchToCm());
 
 
 // Älä koske tähän:
-module.exports = mathOperations;
+module.exports = inchToCm;

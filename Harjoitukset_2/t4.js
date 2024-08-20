@@ -2,12 +2,12 @@
 
 Tehtävä 4: Ympyrän piiri, säde ja pinta-ala
 
-Tee funktio, joka saa parametrina ympyrän halkaisijan (d) ja laskee siitä ympyrän säteen (r), piirin (p) ja 
+Tee funktio, joka saa parametrina ympyrän halkaisijan senteissä (d) ja laskee siitä ympyrän säteen (r), piirin (p) ja 
 pinta-alan (A). Tulokset ilmoitetaan muodossa:
     
-    r = ____ 
-    p = ____ 
-    A = ____
+    r = ____cm
+    p = ____cm
+    A = ____cm^2
 
 Pyöristä tulokset 2 desimaalin tarkkuuteen.
 
@@ -21,7 +21,7 @@ node t4.js
 
 */
 
-function circle(inch){
+function circle(cm){
     // lisää koodia tähän
 }
 

@@ -7,7 +7,7 @@ että se palauttaa tervehdystekstin “Hello, <name>, how are you?”
 Kutsu funktiota kaksi kertaa kahdella eri nimellä ja tulosta funktion palauttamat merkkijonot konsolille.
 
 Aja koodi terminaalissa:
-node tehtava_1.js
+node t_1.js
 
 */
 
