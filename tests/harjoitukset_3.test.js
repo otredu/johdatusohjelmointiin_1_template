@@ -7,7 +7,7 @@ const loopUntilMax = require("../Harjoitukset_3/t6")
 const loopFromMinToMax = require("../Harjoitukset_3/t7")
 const factorial = require("../Harjoitukset_3/t8")
 const lottery = require("../Harjoitukset_3/t9")
-const userNames = require("../Harjoitukset_3/t10")
+const studentId = require("../Harjoitukset_3/t10")
 
 const n1 = "Tiina"
 const n2 = "Jussi"
@@ -87,16 +87,16 @@ describe('lottery', () => {
 
 /* 10 */
 
-describe('userNames', () => {
-    test('userNames: palauttaa oppilasryhmän käyttäjänimet taulukkomuodossa', () => {
-        expect(userNames("Tivi2408POk", 5)).toBe([
+describe('studentId', () => {
+    test('studentId: palauttaa oppilasryhmän tunnukset taulukkomuodossa', () => {
+        expect(studentId("Tivi2408POk", 5)).toBe([
             "Tivi2408POk_oppilas_1",
             "Tivi2408POk_oppilas_2",
             "Tivi2408POk_oppilas_3",
             "Tivi2408POk_oppilas_4",
             "Tivi2408POk_oppilas_5"
         ]);
-        expect(userNames("Tivi2308POk", 7)).toBe([
+        expect(studentId("Tivi2308POk", 7)).toBe([
             "Tivi2308POk_oppilas_1",
             "Tivi2308POk_oppilas_2",
             "Tivi2308POk_oppilas_3",

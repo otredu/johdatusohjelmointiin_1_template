@@ -1,8 +1,8 @@
 /* 
 
-Tehtävä 10: Käyttäjänimigeneraattori
+Tehtävä 10: Opiskelijageneraattori
 
-Tee funktio, joka luo oppilasryhmälle käyttäjätunnukset muotoa <ryhmännimi>_oppilas_<numero> 
+Tee funktio, joka luo oppilasryhmälle tunnukset muotoa <ryhmännimi>_oppilas_<numero> 
 Tunnukset palautetaan taulukossa. Esimerkkitulostus ryhmälle Tivi2408:
 
     ["Tivi2408_oppilas_1", "Tivi2408_oppilas_2", "Tivi2408_oppilas_3",...jne]
@@ -12,13 +12,13 @@ node t10.js
 
 */
 
-function userNames(groupName, count){
+function studentId(groupName, count){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(userNames());
+console.log(studentId());
 
 
 // Älä koske tähän:
-module.exports = userNames;
+module.exports = studentId;
