@@ -2,7 +2,7 @@
 
 Tehtävä 4: Kutosen kertotaulu
 
-Tee funktio, joka tulostaa luvun 6 kertotaulun (käytä for tai while-silmukkaa)
+Tee funktio, joka tulostaa annetun luvun (x) kertotaulun (käytä for tai while-silmukkaa)
 
 Ohjelman pitää tulostaa:
 
@@ -15,13 +15,13 @@ node t4.js
 
 */
 
-function multiplicationWithSix(){
+function multiplication(x){
     // lisää koodia tähän
 }
 
 // täydennä koodia:
-console.log(multiplicationWithSix());
+console.log(multiplication());
 
 
 // Älä koske tähän:
-module.exports = multiplicationWithSix;
+module.exports = multiplication;

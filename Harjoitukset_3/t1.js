@@ -15,7 +15,8 @@ Tee toistorakenne, joka tulostaa for-silmukan avulla oman nimesi 10 kertaa tulos
     9. Tiina
     10. Tiina
 
-Vinkki: Voit lisätä merkkijonoon lisää merkkejä käyttämällä operaatiota: =+ 
+Vinkki 1: Voit lisätä merkkijonoon lisää merkkejä käyttämällä operaatiota: += 
+Vinkki 2: rivin vaihto on \n
 
 Aja koodi terminaalissa:
 node t1.js

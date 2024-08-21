@@ -2,8 +2,8 @@
 
 Tehtävä 5: Kertotaulut
 
-Tee uusi versio edellisen tehtävän kertotaulu-funktiosta niin, että funktiolle annetaan luku, 
-jonka kertotaulun se tulostaa. Tee sen avulla toinen funktio, joka tulostaa lukujen 1-10 kertotaulut.
+Käytä edellisen tehtävän funktiota hyödyksesi ja tee sen avulla toinen funktio, joka tulostaa lukujen 1-10 
+kertotaulut.
 
 Vihje: tarvitset kaksi for-silmukkaa sisäkkäin
 
@@ -23,6 +23,8 @@ Aja koodi terminaalissa:
 node t5.js
 
 */
+// Älä koske tähän:
+const multiplication = require("./t4")
 
 function multiplicationAll(){
     // lisää koodia tähän

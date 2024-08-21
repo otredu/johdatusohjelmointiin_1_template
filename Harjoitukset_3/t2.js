@@ -2,17 +2,19 @@
 
 Tehtävä 2: Potenssit
 
-Tee funktio, joka tulostaa lukujen 1-10 toiset potenssit (potenssiin 2). Käytä for-silmukkaa. 
-Ohjelman pitää siis tulostaa: 
+Tee funktio, joka tulostaa lukujen 1-10 toiset potenssit (potenssiin 2) erotettuna vaihtuvalla 
+välimerkillä (separator). Käytä for-silmukkaa. Ohjelman pitää siis tulostaa: 
     
-    1 4 9 16... jne
-
+    1,4,9,16... jne
+    TAI
+    1-4-9-16... jne
+    
 Aja koodi terminaalissa:
 node t2.js
 
 */
 
-function loopSquares(){
+function loopSquares(separator){
     // lisää koodia tähän
 }
 

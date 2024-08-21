@@ -2,7 +2,8 @@
 
 Tehtävä 6: Mihin asti
 
-Tee funktio, joka tulostaa kokonaisluvut 1:stä funktiolle annettuun lukuun (max) asti. Käytä while-silmukkaa.
+Tee funktio, joka tulostaa kokonaisluvut 1:stä funktiolle annettuun lukuun (max) asti, kun max on 
+tulostuksessa mukana. Käytä while-silmukkaa.
 
 Tulostus:
 

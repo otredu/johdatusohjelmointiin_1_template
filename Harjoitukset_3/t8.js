@@ -12,15 +12,15 @@ Esimerkki:
 
 Esimerkkitulostus: 
 
-    luvun 4 kertoma on 24
-    luvun 10 kertoma on 3628800
+    3! = 1 * 2 * 3 = 6
+    4! = 1 * 2 * 3 * 4 = 24
 
 Aja koodi terminaalissa:
 node t8.js
 
 */
 
-function factorial(max){
+function factorial(x){
     // lisää koodia tähän
 }
 
