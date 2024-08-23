@@ -35,7 +35,7 @@ function greetings(timestamps){
 }
 
 // täydennä koodia:
-let timestamps = ["2024-08-21T13:26:00.000Z","2024-08-20T09:10:00","2024-08-23T20:20:00.000Z", "2024-08-25T23:34:00.000Z"]
+let timestamps = ["2024-08-21T13:26:00.000Z","2024-08-20T09:10:00.000Z","2024-08-23T20:20:00.000Z", "2024-08-25T23:34:00.000Z"]
 console.log(greetings())
 
 // Älä koske tähän:
