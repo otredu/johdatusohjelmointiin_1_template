@@ -1,4 +1,13 @@
-const  {listWithFor, listWithForeach, listWithToString} = require("../Harjoitukset_4/t1")
+const {listWithFor, listWithForeach, listWithToString} = require("../Harjoitukset_4/t1")
+const modifyList = require("../Harjoitukset_4/t2")
+const analyseNumbers = require("../Harjoitukset_4/t3")
+const printGroups = require("../Harjoitukset_4/t4")
+const userNames = require("../Harjoitukset_4/t5")
+const longestTask = require("../Harjoitukset_4/t6")
+const contactInfo = require("../Harjoitukset_4/t7")
+const contactInfoAll = require("../Harjoitukset_4/t8")
+const fullTeams = require("../Harjoitukset_4/t9")
+const greetings = require("../Harjoitukset_4/t10")
 
 const inputList1 = ["osta maitoa", "kuntoile", "lue kokeeseen", "vie roskat", "istuta tulppaaneja"]
 const outputList1 = "- osta maitoa\n- kuntoile\n- lue kokeeseen\n- vie roskat\n- istuta tulppaaneja\n"
@@ -43,8 +52,8 @@ let timestamps1 = ["2024-08-21T13:26:00.000Z","2024-08-20T06:10:00.000Z","2024-0
 let timestamps2 = ["2024-08-20T06:10:00.000Z","2024-08-23T19:19:00.000Z", "2024-08-25T01:34:00.000Z","2024-08-21T13:26:00.000Z"]
    
 /* 1 */
-describe('listWithFor/listWithForeach/listWithToString', () => {
-    test('listWithFor/listWithForeach/listWithToString: tulostaa annetun taulukon oikein', () => {
+describe('listWithFor', () => {
+    test('listWithFor: tulostaa annetun taulukon oikein', () => {
         expect(listWithFor(inputList1)).toBe(outputList1)
         expect(listWithForeach(inputList1)).toBe(outputList1)
         expect(listWithToString(inputList1)).toBe(outputList1)

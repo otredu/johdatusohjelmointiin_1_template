@@ -30,4 +30,4 @@ let groups = [[],[],[]];
 console.log(printGroups());
 
 // Älä koske tähän:
-module.exports = modifyList;
+module.exports = printGroups;

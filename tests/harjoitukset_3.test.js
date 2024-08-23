@@ -89,14 +89,14 @@ describe('lottery', () => {
 
 describe('studentId', () => {
     test('studentId: palauttaa oppilasryhmän tunnukset taulukkomuodossa', () => {
-        expect(studentId("Tivi2408POk", 5)).toBe([
+        expect(studentId("Tivi2408POk", 5)).toEqual([
             "Tivi2408POk_oppilas_1",
             "Tivi2408POk_oppilas_2",
             "Tivi2408POk_oppilas_3",
             "Tivi2408POk_oppilas_4",
             "Tivi2408POk_oppilas_5"
         ]);
-        expect(studentId("Tivi2308POk", 7)).toBe([
+        expect(studentId("Tivi2308POk", 7)).toEqual([
             "Tivi2308POk_oppilas_1",
             "Tivi2308POk_oppilas_2",
             "Tivi2308POk_oppilas_3",
