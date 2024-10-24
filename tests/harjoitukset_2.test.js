@@ -4,7 +4,7 @@ const mathOperations = require('../Harjoitukset_2/t3');
 const circle = require('../Harjoitukset_2/t4');
 const calculator = require('../Harjoitukset_2/t5');
 const inBetween = require('../Harjoitukset_2/t6');
-const celsiusToFahrenheit = require('../Harjoitukset_2/t7');
+const {celsiusToFahrenheit,convertToFahrenheit} = require('../Harjoitukset_2/t7');
 const evenOrOdd = require('../Harjoitukset_2/t8');
 const findMax = require('../Harjoitukset_2/t9');
 const putInOrder = require('../Harjoitukset_2/t10');
@@ -70,10 +70,10 @@ describe('inBetween', () => {
 
 describe('convertToFahrenheit', () => {
     test('convertToFahrenheit: laskee muunnoksen oikein', () => {
-        expect(celsiusToFahrenheit(4)).toBe("4°C on 39.2°F");
-        expect(celsiusToFahrenheit(12)).toBe("12°C on 53.6°F");
-        expect(celsiusToFahrenheit(65)).toBe("65°C on 149°F");
-        expect(celsiusToFahrenheit(-54)).toBe("-54°C on -65.2°F");
+        expect(convertToFahrenheit(4)).toBe(39.2);
+        expect(convertToFahrenheit(12)).toBe(53.6);
+        expect(convertToFahrenheit(65)).toBe(149);
+        expect(convertToFahrenheit(-54)).toBe(-65.2);
     });
 })
 
@@ -82,7 +82,7 @@ describe('celsiusToFahrenheit', () => {
         expect(celsiusToFahrenheit(4)).toBe("4°C on 39.2°F");
         expect(celsiusToFahrenheit(12)).toBe("12°C on 53.6°F");
         expect(celsiusToFahrenheit(65)).toBe("65°C on 149°F");
-        expect(celsiusToFahrenheit(-54)).toBe("-54°C on 65.2°F");
+        expect(celsiusToFahrenheit(-54)).toBe("-54°C on -65.2°F");
     });
 })
 

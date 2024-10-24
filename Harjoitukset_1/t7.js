@@ -15,7 +15,7 @@ Kutsu funktiota useilla eri arvoilla ja tulosta tiedot konsolille. Pyöristä tu
 desimaalin tarkkuuteen.
 
 Aja koodi terminaalissa:
-node t7.js
+node tehtava_7.js
 
 */
 

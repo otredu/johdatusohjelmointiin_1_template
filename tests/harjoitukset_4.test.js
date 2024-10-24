@@ -65,8 +65,8 @@ describe('listWithFor', () => {
 /* 2 */ 
 describe('modifyList', () => {
     test('modifyList: palauttaa muokatun taulukon oikein', () => {
-        expect(modifyList(inputList1)).toEqual(outputArray1)
-        expect(modifyList(inputList2)).toEqual(outputArray2)
+        expect(modifyList(inputList1, "hanki työpaikka")).toEqual(outputArray1)
+        expect(modifyList(inputList2, "karkkia")).toEqual(outputArray2)
 })})
 
 /* 3 */ 
@@ -101,14 +101,14 @@ describe('longestTask', () => {
 describe('contactInfo', () => {
     test('contactInfo: tulostaa oikein yhteystiedot', () => {
         expect(contactInfo(contact1)).toBe(`nimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n`)
-        expect(contactInfo(contact2)).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n`)
+        expect(contactInfo(contact2)).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 0403452344\nemail: minni.hiiri@ankkalinna.com\n`)
 })})
 
 /* 8 */
 describe('contactInfoAll', () => {
     test('contactInfoAll: tulostaa oikein yhteystietolistan', () => {
-        expect(contactInfoAll([contact1,contact2])).toBe(`nimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n`)
-        expect(contactInfoAll([contact2,contact1,contact3])).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 04034523442\nemail: minni.hiiri@ankkalinna.com\n\nnimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Hessu Hopo\nikä: 36\npuh: 123123123\nemail: hessu.hopo@ankkalinna.com\n\n`)
+        expect(contactInfoAll([contact1,contact2])).toBe(`nimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Minni Hiiri\nikä: 25\npuh: 0403452344\nemail: minni.hiiri@ankkalinna.com\n\n`)
+        expect(contactInfoAll([contact2,contact1,contact3])).toBe(`nimi: Minni Hiiri\nikä: 25\npuh: 0403452344\nemail: minni.hiiri@ankkalinna.com\n\nnimi: Aku Ankka\nikä: 33\npuh: 01012312312\nemail: aku.ankka@ankkalinna.com\n\nnimi: Hessu Hopo\nikä: 36\npuh: 123123123\nemail: hessu.hopo@ankkalinna.com\n\n`)
     })})
 
 /* 9 */
@@ -121,7 +121,7 @@ describe('fullTeams', () => {
 /* 10 */
 describe('greetings', () => {
     test('greetings: tervehtii käyttäjää oikein', () => {
-        expect(greetings(timestamps1)).toBe(`Päivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\nHuomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nIltaa!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 04:34:00\n`)
-        expect(greetings(timestamps2)).toBe(`Huomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nIltaa!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 04:34:00\nPäivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\n`)
+        expect(greetings(timestamps1)).toBe(`Päivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\nHuomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nHyvää yötä!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 4:34:00\n`)
+        expect(greetings(timestamps2)).toBe(`Huomenta!\nTänään on tiistai 20.8.2024 ja kello on 9:10:00\nHyvää yötä!\nTänään on perjantai 23.8.2024 ja kello on 22:19:00\nHyvää yötä!\nTänään on sunnuntai 25.8.2024 ja kello on 4:34:00\nPäivää!\nTänään on keskiviikko 21.8.2024 ja kello on 16:26:00\n`)
     })})
    

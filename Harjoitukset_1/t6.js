@@ -9,7 +9,7 @@ Varmista ennen jakolaskua, että jakaja ei ole nolla. Jos se on nolla palauta me
 Kutsu funktiota kaksilla eri arvoilla ja tulosta tiedot konsolille.
 
 Aja koodi terminaalissa:
-node t6.js
+node tehtava_6.js
 
 */
 

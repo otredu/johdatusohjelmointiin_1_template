@@ -17,7 +17,7 @@ Aallonpituudet:     Värit:
 -----------------------------
 
 Aja koodi terminaalissa:
-node t9.js
+node tehtava_9.js
 
 */
 

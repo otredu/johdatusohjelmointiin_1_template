@@ -20,7 +20,7 @@ Aloitusmaksu on 5,40€
 Testaa funktiota vähintään kolmella eri arvolla.
 
 Aja koodi terminaalissa:
-node t8.js
+node tehtava_8.js
 
 */
 

@@ -7,7 +7,7 @@ Tee funktio, joka joka saa kaksi lukua (x ja y) parametrina ja palauttaa merkkij
 funktion palauttamat arvot konsolille.
 
 Aja koodi terminaalissa:
-node t4.js
+node tehtava_4.js
 
 */
 
