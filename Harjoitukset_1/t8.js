@@ -4,7 +4,7 @@ Tehtävä 8. Taksimatka
 
 Tee funktio, jonka avulla voit laskea taksimatkan suuruuden euroissa, kun tiedetään matkustajien määrä 
 (people) ja kuljetut kilometrit (km). Tarkista myös funktion saamat arvot, että ne ovat järkeviä ja jos ne eivät ole 
-palauta "check input".
+palauta "check input". Pyöristä vastaus kahden desimaalin tarkkuuteen.
 
 Taksimatkan hinta lasketaan seuraavasti:
 

@@ -3,7 +3,7 @@
 Tehtävä 9. Robotin värianalyysi
 
 Koodaa taulukon avulla funktio, joka päättelee aallonpituuden (wavelength) avulla mitä väriä robotti näkee. 
-Jos funktion syöte ei osu millekään alueelle, palauta null. Kutsu funktiota kolmella eri arvoilla 
+Jos funktion syöte ei osu millekään alueelle, palauta "check input". Kutsu funktiota kolmella eri arvoilla 
 ja tulosta tiedot konsolille.
 
 Aallonpituudet:     Värit: 

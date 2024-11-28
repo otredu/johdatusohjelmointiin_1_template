@@ -102,9 +102,9 @@ describe('division', () => {
 /* 7 */
 describe('convertCurrency', () => {
     test('convertCurrency: valuuttamuunnos suoritetaan oikein', () => {
-        expect(convertCurrency(10, "YEN")).toBe("¥1087.5")
-        expect(convertCurrency(10, "GBP")).toBe("£5.85")
-        expect(convertCurrency(10, "USD")).toBe("$7.58")
+        expect(convertCurrency(10, "YEN")).toBe("10€ vastaa ¥1087.5")
+        expect(convertCurrency(10, "GBP")).toBe("10€ vastaa £5.85")
+        expect(convertCurrency(10, "USD")).toBe("10€ vastaa $7.58")
     });
 
     test('convertCurrency: check input', () => {
